@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function BookShelf() {
+export default function BookSearch() {
   return (
     <div>
       
