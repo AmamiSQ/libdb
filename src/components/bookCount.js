@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
+//takes a number and returns the amount of books needed to reach that number
 export default function BookCount() {
   const totalBooks = 12;
   const [givenBooks, setBooks] = useState("");
