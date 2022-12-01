@@ -6,7 +6,7 @@ export default function BookCount() {
   const totalBooks = 12;
   const [givenBooks, setBooks] = useState("");
 
-  let booksResult = (givenBooks > totalBooks ) ? `${(givenBooks - totalBooks)} books to go!` : "Goal already reached!";
+  let booksResult = (+givenBooks > totalBooks ) ? `${(+givenBooks - totalBooks)} books to go!` : "Goal already reached!";
 
   return (
     <div>
@@ -20,7 +20,8 @@ export default function BookCount() {
             type="number" 
             className="boxInput" 
             value={givenBooks} 
-            onChange={(e) => setBooks(e.target.value)} />
+            onChange={(e) => setBooks(e.target.value)} 
+            />
           </label>
         </form>
         <br></br>
