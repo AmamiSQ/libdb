@@ -1,10 +1,4 @@
 /* base config*/
-.AppTest {
-  background-color: rgb(0, 255, 255);
-  width: 100px;
-  height: 100px;
-}
-
 body {
   margin: 0;
   background-color: #283434;
@@ -14,9 +8,9 @@ body {
 /*boxes*/
 .boxSearch {
   position: fixed;
-  top: 10%;
-  right: 4%;
-  width: 15%;
+  top: 80px;
+  right: 50px;
+  width: 250px;
   height: 200px;
   border-radius: 15%;
   background-color: aliceblue;
@@ -24,9 +18,9 @@ body {
 
 .boxCount {
   position: fixed;
-  top: calc(100% - 60%);
-  right: 2%;
-  width: calc(100% - 80%);
+  top: 300px;
+  right: 20px;
+  width: 300px;
   height: 250px;
   border-radius: 10%;
   background-color: aliceblue;
@@ -34,9 +28,9 @@ body {
 
 .boxDB {
   position: fixed;
-  top: 10%;
-  left: 2%;
-  width: 20%;
+  top: 80px;
+  left: 20px;
+  width: 300px;
   height: 250px;
   border-radius: 10%;
   background-color: aliceblue;
