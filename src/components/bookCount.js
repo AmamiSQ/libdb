@@ -11,18 +11,19 @@ export default function BookCount() {
   return (
     <div>
       <div className="boxCount">
-        <h1 className="countTitle">Calculate your books!</h1>
-        <p className="countText">Current amount of books: {totalBooks}</p>
+        <h1 className="boxTitle">Calculate your books!</h1>
+        <p className="boxText">Current amount of books: {totalBooks}</p>
         <form>
-          <label className="countText">
+          <label className="boxText">
             Amount of books you want:
             <input 
             type="number" 
-            className="countInput" 
+            className="boxInput" 
             value={givenBooks} 
             onChange={(e) => setBooks(e.target.value)} />
           </label>
         </form>
+        <br></br>
         <h2 className="countText">{booksResult}</h2>
       </div>
     </div>
