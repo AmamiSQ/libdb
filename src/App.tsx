@@ -1,14 +1,17 @@
 import BookCount from "./components/bookCount";
 import BookSearch from "./components/bookSearch";
 import BookAdd from "./components/bookAdd";
+import Header from "./components/header";
+import BookShelf from "./components/bookShelf";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="AppClass">
+      <Header />
       <BookCount />
       <BookSearch />
       <BookAdd />
-      <img src="https://cdn.mos.cms.futurecdn.net/CAZ6JXi6huSuN4QGE627NR.jpg" alt="bleh"/>
+      <BookShelf />
     </div>
   );
 }

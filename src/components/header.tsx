@@ -4,7 +4,9 @@ import React from "react";
 export default function Header() {
   return (
   <div>
-    
+    <div className="header">
+      <h1 className="headerText">HEADER</h1>
+    </div>
   </div>
   );
 }
