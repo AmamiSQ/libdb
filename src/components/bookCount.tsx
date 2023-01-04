@@ -3,7 +3,7 @@ import { useState } from "react";
 
 //takes a number and returns the amount of books needed to reach that number
 export default function BookCount() {
-  const totalBooks = 12;
+  const totalBooks = 12; //total books taken from the database
   const [givenBooks, setBooks] = useState("");
 
   let booksResult = (+givenBooks > totalBooks ) ? `${(+givenBooks - totalBooks)} books to go!` : "Goal already reached!";
