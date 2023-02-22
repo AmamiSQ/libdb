@@ -1,0 +1,81 @@
+/* base config*/
+body {
+  margin: 0;
+  background-color: #283434;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/CAZ6JXi6huSuN4QGE627NR.jpg");
+}
+
+/*shelf and header*/
+.header {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-color: aliceblue;
+}
+
+.shelfLiner {
+  position: relative;
+  top: 250px;
+  width: 700px;
+  height: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: aqua;
+}
+
+/*boxes*/
+.boxSearch {
+  position: fixed;
+  top: 250px;
+  right: 50px;
+  width: 250px;
+  height: 200px;
+  border-radius: 15%;
+  background-color: aliceblue;
+}
+
+.boxCount {
+  position: fixed;
+  top: 470px;
+  right: 20px;
+  width: 300px;
+  height: 250px;
+  border-radius: 10%;
+  background-color: aliceblue;
+}
+
+.boxDB {
+  position: fixed;
+  top: 250px;
+  left: 20px;
+  width: 300px;
+  height: 250px;
+  border-radius: 10%;
+  background-color: aliceblue;
+}
+
+.topButton {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+}
+
+/*text*/
+/* .countTitle {
+
+} */
+
+.boxText {
+  margin-left: 10px;
+}
+
+.boxInput {
+  margin-left: 10px;
+}
+
+.headerText {
+  text-align: center;
+}
